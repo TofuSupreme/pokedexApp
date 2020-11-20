@@ -1,5 +1,7 @@
 import React from 'react'
-
+{
+  /* NOTE: Added evo class back */
+}
 export default function Evo() {
   return (
     <div className="evo-row">
@@ -16,7 +18,7 @@ export default function Evo() {
         <h5 style={{ textAlign: 'center' }}>Quilava</h5>
       </div>
       <div className="evosign">
-        <span className="skew-forward-on-hover"> > > > </span>
+        <span className="skew-forward-on-hover"> &gt; &gt; &gt;</span>
       </div>
 
       <div className="col">
