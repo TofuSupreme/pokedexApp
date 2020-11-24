@@ -79,7 +79,7 @@ body {
   border-right: 0px;
   border-left: 0px;
 }
-.evoquil:hover {
+.evos:hover {
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
@@ -105,8 +105,4 @@ body {
 .skew-forward-on-hover:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
-}
-.evotyph:hover {
-  transform: scale(1.1);
-  transition: all 0.2s ease-in-out;
 }
