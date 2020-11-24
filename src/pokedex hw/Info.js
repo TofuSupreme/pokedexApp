@@ -1,4 +1,6 @@
 import React from 'react'
+import Type from './Type'
+
 export default function Info() {
   return (
     <div className="info-row">
@@ -22,63 +24,14 @@ export default function Info() {
           <h3>Type</h3>
 
           <div className="shaders">
-            <a
-              href="#fire"
-              className="hvr-shrink"
-              style={{
-                background: '#ed6d12',
-                borderRadius: 5,
-                color: 'white',
-                padding: 5
-              }}
-            >
-              Fire
-            </a>
+            <Type link="#fire" bgColor="#ed6d12" name="Fire" />
           </div>
 
           <div className="weaknesses">
             <h3>Weaknesses</h3>
-            <a
-              href="#water"
-              className="hvr-shrink"
-              style={{
-                background: '#4578ed',
-                color: 'white',
-                borderRadius: 5,
-                padding: 5,
-                margin: 5
-              }}
-            >
-              Water
-            </a>
-
-            <a
-              href="#rock"
-              className="hvr-shrink"
-              style={{
-                background: '#a48f32',
-                color: 'white',
-                borderRadius: 5,
-                padding: 5,
-                margin: 5
-              }}
-            >
-              Rock
-            </a>
-
-            <a
-              href="#ground"
-              className="hvr-shrink"
-              style={{
-                background: '#dbb54d',
-                borderRadius: 5,
-                color: 'white',
-                padding: 5,
-                margin: 5
-              }}
-            >
-              Ground
-            </a>
+            <Type link="#water" bgColor="#4578ed" name="Water" />
+            <Type link="#rock" bgColor="#a48f32" name="Rock" />
+            <Type link="#ground" bgColor="#dbb54d" name="Ground" />
           </div>
         </div>
       </div>
