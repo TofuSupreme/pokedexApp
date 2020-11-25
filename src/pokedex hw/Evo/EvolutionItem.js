@@ -1,4 +1,4 @@
-export default function EvolutionItem(props) {
+export default function Evo(props) {
   return (
     <div className="col">
       <a className="row" href={props.link}>
