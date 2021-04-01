@@ -4,6 +4,8 @@ import TypeList from '../Components/TypeList'
 export default function Info(props) {
   return (
     <div className="info-row">
+      #{props.id} {props.name}
+
       <div href={props.link} className="col">
         <img
           className="mainpic"

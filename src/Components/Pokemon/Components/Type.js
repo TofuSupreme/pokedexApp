@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom'
 export default function Type(props) {
   return (
-    <a
-      href={props.link}
+    <Link
+      to={props.link}
       className="hvr-shrink"
       style={{
         background: props.bgColor,
@@ -12,6 +13,6 @@ export default function Type(props) {
       }}
     >
       {props.name}
-    </a>
+    </Link>
   )
 }
