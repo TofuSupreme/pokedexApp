@@ -1,6 +1,6 @@
 import React, { useParams } from 'react-router-dom'
 import PokemonList from '../Home/Components/PokemonList'
-import PokemonDB from '../../DB'
+import PokemonDB from '../DB/PokemonDB'
 
 export default function PokeTypes(props) {
   let { name } = useParams()
