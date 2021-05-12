@@ -12,7 +12,7 @@ export default function Pokemon(props) {
   // console.log(singlePokemonInArr)
 
   let singlePokemonObj = PokemonDB.filter(
-    pokemon => pokemon.name.toLowerCase() == name
+    pokemon => pokemon.name.toLowerCase() === name
   )[0]
 
   if (singlePokemonObj === undefined) {
